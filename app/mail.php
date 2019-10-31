@@ -9,7 +9,7 @@
 	if(isset ($_POST['step4'])) {$step4=$_POST['step4'];}
 	if(isset ($_POST['step5'])) {$step5=$_POST['step5'];}
 
-	$to = "mashtalir_sasha@ukr.net"; // Замениь на емаил клиента
+	$to = "lysokondancestudio@ukr.net"; // Замениь на емаил клиента
 
 	$message = "Форма: $title <br><br>";
 	if ( $fio || $phonenum || $step1 || $step2 || $step3 || $step4 || $step5 || $step6 ) {
